@@ -15,30 +15,30 @@ ________________________________________________________________________________
 FIELDS TO FILL:
 __________________
 LINES Change in Jira.py file
-****************************
-LINE 20 in Jira.py -> #JIRA_DOMAIN_NAME = # URL to Search all issues.
-LINE 24 & 25 -> ##JIRA_USERNAME" = # jira username and #JIRA_API_TOKEN 
+****************************\
+LINE 20 in Jira.py -> #JIRA_DOMAIN_NAME = # URL to Search all issues.\
+LINE 24 & 25 -> ##JIRA_USERNAME" = # jira username and #JIRA_API_TOKEN \
 get Jira api token from-
 -----------------------
 Create an API token
 -----------------------
-Create an API token from your Atlassian account:
+Create an API token from your Atlassian account:\
 
-Log in to https://id.atlassian.com/manage-profile/security/api-tokens.
+Log in to https://id.atlassian.com/manage-profile/security/api-tokens.\
 
-Click Create API token.
+Click Create API token.\
 
-From the dialog that appears, enter a memorable and concise Label for your token and click Create.
+From the dialog that appears, enter a memorable and concise Label for your token and click Create.\
 
-Click Copy to clipboard, then paste the token in Jira.py line 24 #JIRA_API_TOKEN
+Click Copy to clipboard, then paste the token in Jira.py line 24 #JIRA_API_TOKEN\
 
 
-LINE 36 -> #PROJECT_NAME = PROJECT-NAME 
-LINE  226 --> #SUBJECT = ENTER EMAIL SUBJECT
-LINE 227 --> ENTER EMAIL ID {FROM}
-LINE 228 --> ENTER EMAIL ID {TO}
-LINE 236 --> FROM#EMAIL_ID_API_TOKEN = ENTER EMAIL ID API TOKEN 
-=====DONT USE EMAIL PASSWORD ---
+LINE 36 -> #PROJECT_NAME = PROJECT-NAME \
+LINE  226 --> #SUBJECT = ENTER EMAIL SUBJECT\
+LINE 227 --> ENTER EMAIL ID {FROM}\
+LINE 228 --> ENTER EMAIL ID {TO}\
+LINE 236 --> FROM#EMAIL_ID_API_TOKEN = ENTER EMAIL ID API TOKEN \
+=====DONT USE EMAIL PASSWORD ---\
 
 ;)
 
