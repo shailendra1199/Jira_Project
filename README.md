@@ -3,7 +3,7 @@ fetch jira tickets details via python
 ---------------------
 Approach:
 _____________________
-->Import the required modules.
+->Import the required modules.\
 ->Prepare URL, to search, all issues.
 ->Create an authentication object, using registered emailID, and, token received.
 ->Pass the project name, in, JQL query. If you, omit JQL query, then, Issues, present, against all projects, on your domain, are obtained.
