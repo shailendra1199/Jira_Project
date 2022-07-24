@@ -4,11 +4,11 @@ fetch jira tickets details via python
 Approach:
 _____________________
 ->Import the required modules.\
-->Prepare URL, to search, all issues.
-->Create an authentication object, using registered emailID, and, token received.
-->Pass the project name, in, JQL query. If you, omit JQL query, then, Issues, present, against all projects, on your domain, are obtained.
-->Create and send, a request object, using authentication, header objects, and, JQL query.
-->Use, JSON loads method, to convert the JSON response, into a Python dictionary object.
+->Prepare URL, to search, all issues.\
+->Create an authentication object, using registered emailID, and, token received.\
+->Pass the project name, in, JQL query. If you, omit JQL query, then, Issues, present, against all projects, on your domain, are obtained.\
+->Create and send, a request object, using authentication, header objects, and, JQL query.\
+->Use, JSON loads method, to convert the JSON response, into a Python dictionary object.\
 ->All Issues are present, as list elements, against the key ‘issues’, in the main API output. Hence, loop through each element.
 ______________________________________________________________________________________________________________
 
