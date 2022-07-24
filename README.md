@@ -1,8 +1,8 @@
 # Jira_Project
 fetch jira tickets details via python
-#---------------------
+---------------------
 Approach:
-#_____________________
+_____________________
 ->Import the required modules.
 ->Prepare URL, to search, all issues.
 ->Create an authentication object, using registered emailID, and, token received.
