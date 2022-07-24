@@ -14,8 +14,8 @@ ________________________________________________________________________________
 
 FIELDS TO FILL:
 __________________
-LINES Change in Jira.py file
-****************************\
+LINES Change in Jira.py file\
+****************************
 LINE 20 in Jira.py -> #JIRA_DOMAIN_NAME = # URL to Search all issues.\
 LINE 24 & 25 -> ##JIRA_USERNAME" = # jira username and #JIRA_API_TOKEN \
 get Jira api token from-
